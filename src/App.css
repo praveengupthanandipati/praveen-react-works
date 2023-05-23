@@ -47,6 +47,11 @@ nav ul li a:hover{
   transition: all 0.2s ease;  
 }
 
+nav ul li a.active{
+  background-color:blueviolet;
+  color:white;
+}
+
 table{
   width:100%;
 }
@@ -54,4 +59,7 @@ table{
 table td{
   padding:10px;
   border:1px solid #ccc;
+}
+table tr td:first-child{
+  background:#eee;
 }

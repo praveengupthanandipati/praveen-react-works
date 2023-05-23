@@ -14,7 +14,7 @@ function Home() {
     Married: "Married",
     Native: "Repalle, Guntur Dist, Andhra Pradesh",
     Qualification: "Master Degree in Arts",
-    Year: 2009
+    Year: 2009,
   };
 
   const objectProperties = Object.entries(MyDetails);
@@ -28,7 +28,7 @@ function Home() {
             <tr>
               <td>{key}</td>
               <td align="center">:</td>
-              <td>{value}</td>
+              <td>{value}</td>             
             </tr>
           ))}
         </table>

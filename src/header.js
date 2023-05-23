@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter, Route, NavLink, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -16,9 +16,9 @@ function Header() {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
-                <Link to="about">About</Link>
-                <Link to="contact">Contact</Link>
+                <NavLink to="/" activeClassName="active">Home</NavLink>
+                <NavLink to="about" activeClassName="active">About</NavLink>
+                <NavLink to="contact" activeClassName="active">Contact</NavLink>
               </li>
             </ul>
           </nav>
