@@ -1,11 +1,11 @@
 function Home() {
   const MyDetails = {
-    Name: "Praveen Guptha Nandipati",
+    FullName: "Praveen Guptha Nandipati",
     Age: 41,
     Occupation: "Sr. Software Engineer",
     Experience: "12 yrs",
     Primary: 9642123254,
-    Secondary: 799516578,
+    Secondary: 7995165789,
     Address: "49, Kondaveedu Enclave, Kousalya colony, Bachupally, Hyderabad",
     Skills:
       "UX/UI Designing, UI Development, Frontend Development, Graphic Designing",
@@ -19,9 +19,11 @@ function Home() {
 
   const objectProperties = Object.entries(MyDetails);
 
+  var name="Praveen"
+
   return (
     <div>
-      <h1>Introduction of Praveen</h1>
+      <h1>Introduction of {name}</h1>
       <div>
         <table>
           {objectProperties.map(([key, value]) => (

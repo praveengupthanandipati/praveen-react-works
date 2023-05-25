@@ -22,11 +22,11 @@
 nav{
   padding:15px 0;
 }
-nav ul{
+nav ul, .subtabnav{
   padding:0;
   margin:0;
 }
-nav ul li{
+nav ul li, .subtabnav li{
   list-style: none;
 }
 nav ul li a{
@@ -62,4 +62,15 @@ table td{
 }
 table tr td:first-child{
   background:#eee;
+}
+
+.subtabnav li a{
+    text-decoration: none;
+    display: inline-block;
+    padding:15px;
+    border-bottom:1px solid  #ccc;
+}
+
+.subtabnav li a.active{
+  border-bottom:1px solid blueviolet;
 }
